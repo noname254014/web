@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <link href="../css/common.css" rel="stylesheet"/>
+  <meta charset="utf-8"/>
+  <meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>
+   Drawing App
+  </title>
+  <link href="https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css" rel="stylesheet"/>
+  <link href="style.css" rel="stylesheet"/>
+  <link href="css/transition.css" rel="stylesheet"/>
+ </head>
+ <a class="back-to-menu" href="../index.html">
+  Back to Main Menu
+ </a>
+ <body>
+  <div class="container">
+   <div class="tools">
+    <input id="color" type="color"/>
+    <button id="eraser">
+     <i class="bx bxs-eraser">
+     </i>
+    </button>
+    <button id="decrease">
+     -
+    </button>
+    <span id="size">
+     10
+    </span>
+    <button id="increase">
+     +
+    </button>
+    <a download="example.png" id="save">
+     <i class="bx bxs-save">
+     </i>
+    </a>
+    <button id="clear">
+     X
+    </button>
+   </div>
+   <canvas height="600" id="canvas" width="1200">
+   </canvas>
+  </div>
+  <script src="app.js">
+  </script>
+  <script src="js/transition.js">
+  </script>
+ </body>
+</html>
